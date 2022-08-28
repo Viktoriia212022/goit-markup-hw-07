@@ -1,0 +1,29 @@
+.quality-box {
+    display: flex;
+    gap: 30px;
+}
+
+.quality {
+    width: 270px;
+    height: 120px;
+    background-color: var(--primary-bg-color);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.quality__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+}
+
+.quality__text {
+    font-size: 14px;
+    line-height: 1.7;
+    margin-top: 10px;
+}
